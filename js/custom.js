@@ -102,6 +102,12 @@
         })
     })
 
+    // gmap
+    var map = new GMaps({
+        el: '#map',
+        lat: 23.746466,
+        lng: 90.376015
+      });
     //maasonry js
     $(".cre_addons_grid_wrapper").each(function () {
         var cre_addons_grid_wrapper = $('.cre_addons_grid_wrapper');

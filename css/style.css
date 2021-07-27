@@ -573,4 +573,9 @@ button:focus {
 .card_wrap .card_item p {
   color: inherit;
 }
+
+#map {
+  width: 400;
+  height: 400;
+}
 /*# sourceMappingURL=style.css.map */
