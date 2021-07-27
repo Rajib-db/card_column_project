@@ -1,0 +1,28 @@
+/* BANNER SECTION */
+.card_column_section{
+    padding: 150px 0;
+}
+.card_wrap{
+    column-count: 3;
+    // column-count: auto;
+    column-gap: 30px;
+    // column-count: revert;
+    // column-count: unset;
+    orphans: 1;
+    widows: 1;
+    .card_item{
+        display: inline-block;
+        width: 100%;
+        padding: 30px;
+        color: #fff;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        h3{
+            color: inherit;
+        }
+        p{
+            color: inherit;
+        }
+    }
+    
+}
